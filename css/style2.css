@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+.title{
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vh;
+    text-align: center;
+    color: black;
+    background-color: rgba(81, 255, 96, 0.9);
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+}
+
+.divider{
+    margin-top: 2%;
+    height: 1vh;
+    width: 90%;
+    /* background-color: white; */
+}
+
+.content{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+.text{
+    font-weight: 200;
+    word-spacing: 1vh;
+}
+
+.blog-title{
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 7vh;
+}

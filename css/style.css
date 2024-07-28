@@ -1,0 +1,194 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif");
+    background-size: cover;
+}
+
+.title{
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vh;
+    text-align: center;
+    color: black;
+    background-color: rgba(81, 255, 96, 0.9);
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+}
+
+.welcome{
+    background-color: rgba(81, 255, 96, 0.9);
+    color: black;
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 1%;
+    margin-left: 18%;
+    width: 50%;
+}
+
+.welcome-header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+.welcome-header:before{
+    content: "✩";
+    padding-right: 1%;
+}
+
+#welcome{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 3vh;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcomelink{
+    text-decoration: none;
+    color: blue;
+}
+
+.welcomelink:hover{
+    background-color: cyan;
+    color: black;
+}
+
+#youtube{
+    color: rgb(223, 0, 0);
+}
+
+.index{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.7vh;
+    background-color: rgba(81, 255, 96, 0.9);
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+    margin-left: 3%;
+    padding: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 10%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    margin-left: none;
+    padding-left: 0%;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover{
+    background-color: black;
+    color: white;
+}
+
+.list li:before{
+    content: "★";
+    padding-right: 5%;
+}
+
+.blogs{
+    background-color: rgba(81, 255, 96, 0.9);
+    color: black;
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 1%;
+    margin-left: 18%;
+    width: 50%;
+}
+
+.blogs-header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+.blogs-header:before{
+    content: "✩";
+    padding-right: 1%;
+}
+
+.projects{
+    background-color: rgba(81, 255, 96, 0.9);
+    color: black;
+    border: 1px solid #A9A9A9;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 1%;
+    margin-left: 18%;
+    width: 50%;
+}
+
+.projects-header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+.projects-header:before{
+    content: "✩";
+    padding-right: 1%;
+}
+
+.project-item{
+    font-family: "Slabo 13px", serif;
+    font-weight: 800;
+    font-size: 4vh;
+    font-style: normal;
+}
+
+.project-item:before{
+    content: "✪";
+    padding-right: 1.5%;
+}
+
+.project-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-item a:hover{
+    background-color: black;
+    color: white;
+}
+
+.project-description{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-size: 3vh;
+    font-style: normal;
+    margin-top:-3%
+}
+
+.blogs a{
+    text-decoration: none;
+    color: black;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    font-size: 6vh;
+}
